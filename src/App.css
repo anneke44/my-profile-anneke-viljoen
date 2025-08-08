@@ -1,4 +1,7 @@
-.logo {
-  width: 60px;
-  margin: 0px 60px;
+.dropDown > ul {
+  list-style: none;
+  display: flex;
+}
+.dropDown li {
+  margin: 0 10px;
 }
