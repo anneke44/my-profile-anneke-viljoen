@@ -1,0 +1,13 @@
+.HomepageHero {
+  margin: 40px;
+  max-width: 100%;
+  height: 250px;
+  justify-content: space-around;
+  align-items: center;
+}
+.primary-heading ul {
+  list-style: none;
+}
+#launch-button {
+  border: 1px solid black;
+}
