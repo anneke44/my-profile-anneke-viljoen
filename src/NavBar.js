@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import logo from "./AnnekeTranLogo.png";
 
@@ -9,25 +9,45 @@ export default function NavBar() {
       <nav className="NavBar">
         <div className="nav-header d-flex">
           <div className="logo">
-            <Link to="/" title="Homepage">
+            <NavLink to="/" title="Homepage">
               <img
                 src={logo}
                 alt="Logo"
                 className="anneke-logo img img-fluid"
               />
-            </Link>
+            </NavLink>
           </div>
-          <div>Anneke Viljoen</div>
           <div className="dropDown">
             <ul>
               <li>
-                <Link to="./About">About</Link>
+                <NavLink
+                  to="./About"
+                  className={({ isActive }) =>
+                    isActive ? "active-link" : "page-link"
+                  }
+                >
+                  About
+                </NavLink>
               </li>
               <li>
-                <Link to="./Profile">Profile</Link>
+                <NavLink
+                  to="./Profile"
+                  className={({ isActive }) =>
+                    isActive ? "active-link" : "page-link"
+                  }
+                >
+                  Profile
+                </NavLink>
               </li>
               <li>
-                <Link to="./Contact">Contact</Link>
+                <NavLink
+                  to="./Contact"
+                  className={({ isActive }) =>
+                    isActive ? "active-link" : "page-link"
+                  }
+                >
+                  Contact
+                </NavLink>
               </li>
             </ul>
           </div>

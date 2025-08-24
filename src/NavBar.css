@@ -9,6 +9,16 @@
 }
 .nav-header {
   place-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+.page-link {
+  text-decoration: none;
+  color: #fff;
+}
+.active-link {
+  text-decoration: none;
+  color: pink;
 }
 .dropDown > ul {
   margin: 0;
@@ -16,5 +26,5 @@
   display: flex;
 }
 .dropDown li {
-  margin: 0 10px;
+  margin: 0 30px;
 }

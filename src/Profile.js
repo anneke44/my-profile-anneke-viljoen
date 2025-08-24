@@ -1,4 +1,5 @@
 import React from "react";
+import "./Profile.css";
 import Bg from "./bg.png";
 
 export default function Profile() {
