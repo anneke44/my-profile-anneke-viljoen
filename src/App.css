@@ -1,23 +1,5 @@
 .App .container {
   margin: 0;
   max-width: 100%;
-}
-.anneke-logo {
-  width: 80px;
-}
-.nav-container {
-  max-width: 100%;
-  max-height: 80px;
-  border-bottom: 1px solid black;
-}
-.nav-header {
-  place-items: center;
-}
-.dropDown > ul {
-  margin: 0;
-  list-style: none;
-  display: flex;
-}
-.dropDown li {
-  margin: 0 10px;
+  font-family: "Roboto Variable", sans-serif;
 }
