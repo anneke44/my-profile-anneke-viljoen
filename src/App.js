@@ -6,6 +6,7 @@ import HomepageHero from "./HomepageHero";
 import About from "./About";
 import Profile from "./Profile";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="Profile" element={<Profile />} />
           <Route path="Contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </div>
     </div>
   );
