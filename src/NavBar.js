@@ -26,7 +26,7 @@ export default function NavBar() {
                     isActive ? "active-link" : "page-link"
                   }
                 >
-                  About
+                  about
                 </NavLink>
               </li>
               <li>
@@ -36,7 +36,7 @@ export default function NavBar() {
                     isActive ? "active-link" : "page-link"
                   }
                 >
-                  Profile
+                  profile
                 </NavLink>
               </li>
               <li>
@@ -46,7 +46,7 @@ export default function NavBar() {
                     isActive ? "active-link" : "page-link"
                   }
                 >
-                  Contact
+                  contact
                 </NavLink>
               </li>
             </ul>

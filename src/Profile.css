@@ -1,8 +1,12 @@
 .Profile {
-  margin: 40px;
+  margin: 60px auto 80px;
   max-width: 100%;
 }
 .Profile img {
   border: 2px solid #006a71;
   border-radius: 4px;
+}
+.Profile h1 {
+  text-align: center;
+  margin: 60px auto 60px;
 }
