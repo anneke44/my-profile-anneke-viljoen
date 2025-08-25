@@ -7,8 +7,8 @@ export default function HomepageHero() {
       <div>
         <div className="primary-heading">
           <ul>
-            <li>Anneke Viljoen</li>
-            <li>Front End Developer</li>
+            <li className="heading">Anneke Viljoen</li>
+            <li className="heading">Front End Developer</li>
           </ul>
         </div>
       </div>

@@ -9,18 +9,57 @@ export default function Profile() {
         <h1>My Portfolio</h1>
       </div>
       <div className="portfolio-container container">
-        <div className="row g-4">
-          <div className="col-md-6">
-            <img src={Bg} alt="Placeholder" className="img-fluid" />
+        <div className="row row-cols-1 row-cols-md-2 g-4">
+          <div className="col">
+            <div className="card">
+              <img src={Bg} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="col-md-6">
-            <img src={Bg} alt="Placeholder" className="img-fluid" />
+          <div className="col">
+            <div className="card">
+              <img src={Bg} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="col-md-6">
-            <img src={Bg} alt="Placeholder" className="img-fluid" />
+          <div className="col">
+            <div className="card">
+              <img src={Bg} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="col-md-6">
-            <img src={Bg} alt="Placeholder" className="img-fluid" />
+          <div className="col">
+            <div className="card">
+              <img src={Bg} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

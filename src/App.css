@@ -3,3 +3,6 @@
   max-width: 100%;
   font-family: "Roboto Variable", sans-serif;
 }
+.container {
+  height: 100%;
+}
