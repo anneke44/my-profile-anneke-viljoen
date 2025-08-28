@@ -35,13 +35,13 @@ export default function HomepageHero() {
       </div>
       <div className="container container-fluid">
         <div className="row">
-          <div className="col-6 ">
+          <div className="homepage-about col-6">
             <HomepageAbout />
           </div>
-          <div className="col-6">
+          <div className="homepage-project col-6">
             <HomepageProject />
           </div>
-          <div className="col-12 text-center">
+          <div className="homepage-connect col-12 text-center">
             <HomepageConnect />
           </div>
         </div>

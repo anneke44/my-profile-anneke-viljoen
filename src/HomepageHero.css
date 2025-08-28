@@ -15,6 +15,15 @@
   font-size: 16px;
   opacity: 0.8;
 }
+.homepage-about {
+  margin-top: 60px;
+}
+.homepage-project {
+  margin-top: 60px;
+}
+.homepage-connect {
+  margin-top: 60px;
+}
 .heading {
   animation: move 4s linear infinite;
   background-image: linear-gradient(
