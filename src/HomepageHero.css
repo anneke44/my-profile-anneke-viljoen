@@ -1,5 +1,8 @@
 .HomepageHero {
-  margin: 40px;
+  margin: 60px auto 80px;
+  max-width: 100%;
+}
+.hero-heading {
   max-width: 100%;
   height: 400px;
   justify-content: space-around;
@@ -8,6 +11,10 @@
 .primary-heading ul {
   font-size: 50px;
   list-style: none;
+}
+.slogan {
+  font-size: 16px;
+  opacity: 0.8;
 }
 .heading {
   animation: move 4s linear infinite;
