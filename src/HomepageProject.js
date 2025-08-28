@@ -8,15 +8,13 @@ export default function HomepageProject() {
       <div className="card h-100">
         <div className="card-body">
           <h5 className="card-title">Projects</h5>
-          <p className="card-text ">
-            <div>
-              <ul>
-                <li>Project One – A responsive website showcasing [X].</li>
-                <li>Project Two – A web app built with [Y].</li>
-                <li>Project Three – A design experiment exploring [Z].</li>
-              </ul>
-            </div>
-          </p>
+          <div className="card-text ">
+            <ul>
+              <li>Project One – A responsive website showcasing [X].</li>
+              <li>Project Two – A web app built with [Y].</li>
+              <li>Project Three – A design experiment exploring [Z].</li>
+            </ul>
+          </div>
           <a
             id="button-link"
             href="/Profile"

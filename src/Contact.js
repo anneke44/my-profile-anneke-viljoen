@@ -9,7 +9,7 @@ export default function Contact() {
       <p>📧 anneke.viljoen4@gmail.com</p>
       <h3>LinkedIn</h3>
       <a
-        href="https://github.com/anneke44"
+        href="https://www.linkedin.com/in/anneke-viljoen4/"
         target="_blank"
         rel="noreferrer"
         className="link-icon"

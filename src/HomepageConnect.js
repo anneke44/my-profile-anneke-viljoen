@@ -12,12 +12,12 @@ export default function HomepageConnect() {
       <div>
         📧 Email me: anneke.viljoen4@gmail.com <em>or</em> find me on LinkedIn
         <a
-          href="https://github.com/anneke44"
+          href="https://www.linkedin.com/in/anneke-viljoen4/"
           target="_blank"
           rel="noreferrer"
           className="link-icon"
         >
-          <i class="devicon-linkedin-plain"></i>
+          <i className="devicon-linkedin-plain"></i>
         </a>
       </div>
       <a

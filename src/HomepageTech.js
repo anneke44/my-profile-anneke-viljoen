@@ -26,7 +26,7 @@ export default function HomepageTech() {
                 >
                   JavaScript
                 </i>
-                <i class="devicon-python-plain colored">Python</i>
+                <i className="devicon-python-plain colored">Python</i>
               </div>
             </div>
           </li>
@@ -41,7 +41,7 @@ export default function HomepageTech() {
                   Node.js
                 </i>{" "}
                 <i className="devicon-axios-plain">Axios</i>{" "}
-                <i class="devicon-bootstrap-plain">Bootstrap</i>
+                <i className="devicon-bootstrap-plain">Bootstrap</i>
               </div>
             </div>
           </li>

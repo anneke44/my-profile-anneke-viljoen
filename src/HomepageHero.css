@@ -19,10 +19,13 @@
   margin-top: 60px;
 }
 .homepage-project {
-  margin-top: 60px;
+  margin-top: 40px;
+}
+.homepage-tech {
+  margin-top: 40px;
 }
 .homepage-connect {
-  margin-top: 60px;
+  margin-top: 80px;
 }
 .heading {
   animation: move 4s linear infinite;

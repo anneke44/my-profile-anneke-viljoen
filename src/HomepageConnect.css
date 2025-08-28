@@ -1,5 +1,5 @@
 #launch-button {
-  margin: 20px auto;
+  margin: 30px auto;
   padding: 8px 25px;
   border: 1px solid #006a71;
   background-color: #006a71;
@@ -17,4 +17,7 @@
   font-size: 20px;
   text-decoration: none;
   margin: 4px;
+}
+.link-icon:hover {
+  color: #48a6a7;
 }

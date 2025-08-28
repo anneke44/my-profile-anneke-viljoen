@@ -11,3 +11,6 @@
   text-decoration: none;
   margin: 4px;
 }
+.link-icon:hover {
+  color: #48a6a7;
+}

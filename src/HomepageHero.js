@@ -36,10 +36,10 @@ export default function HomepageHero() {
       </div>
       <div className="container container-fluid">
         <div className="row">
-          <div className="homepage-about col-6">
+          <div className="homepage-about col-8">
             <HomepageAbout />
           </div>
-          <div className="homepage-project col-6">
+          <div className="homepage-project col-8">
             <HomepageProject />
           </div>
           <div className="homepage-tech col-12 text-center">
