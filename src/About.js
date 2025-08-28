@@ -1,4 +1,5 @@
 import React from "react";
+import MyPDF from "./Anneke Viljoen CV 2025.pdf";
 import "./About.css";
 
 export default function About() {
@@ -42,6 +43,9 @@ export default function About() {
         [optional personal touch — e.g., “experimenting with new coffee brews,
         exploring local cafés, or sketching design ideas in a notebook”].
       </p>
+      <a href={MyPDF} download={MyPDF}>
+        Download CV
+      </a>
     </div>
   );
 }

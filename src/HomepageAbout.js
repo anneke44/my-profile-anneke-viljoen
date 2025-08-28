@@ -4,10 +4,10 @@ import "./HomepageAbout.css";
 export default function HomepageAbout() {
   return (
     <div className="HomepageAbout">
-      <div class="card h-100">
-        <div class="card-body">
-          <h5 class="card-title">About Me</h5>
-          <p class="card-text">
+      <div className="card h-100">
+        <div className="card-body">
+          <h5 className="card-title">About Me</h5>
+          <p className="card-text">
             I come from a background in hospitality, where I managed busy cafés
             and learned how to create seamless, welcoming experiences for
             people. Now, I bring that same people-first approach into web
