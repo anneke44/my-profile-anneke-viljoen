@@ -14,12 +14,19 @@ export default function HomepageTech() {
             <div className="stack-category">
               <p>Languages</p>
               <div className="icons">
-                <i className="devicon-html5-plain colored" title="HTML5"></i>
-                <i className="devicon-css3-plain colored" title="CSS3"></i>
+                <i className="devicon-html5-plain colored" title="HTML5">
+                  HTML5
+                </i>{" "}
+                <i className="devicon-css3-plain colored" title="CSS3">
+                  CSS3
+                </i>{" "}
                 <i
                   className="devicon-javascript-plain colored"
                   title="JavaScript"
-                ></i>
+                >
+                  JavaScript
+                </i>
+                <i class="devicon-python-plain colored">Python</i>
               </div>
             </div>
           </li>
@@ -27,8 +34,14 @@ export default function HomepageTech() {
             <div className="stack-category">
               <p>Frameworks & Libraries</p>
               <div className="icons">
-                <i className="devicon-react-original colored" title="React"></i>
-                <i className="devicon-nodejs-plain colored" title="Node.js"></i>
+                <i className="devicon-react-original colored" title="React">
+                  React.js
+                </i>{" "}
+                <i className="devicon-nodejs-plain colored" title="Node.js">
+                  Node.js
+                </i>{" "}
+                <i className="devicon-axios-plain">Axios</i>{" "}
+                <i class="devicon-bootstrap-plain">Bootstrap</i>
               </div>
             </div>
           </li>
@@ -36,9 +49,16 @@ export default function HomepageTech() {
             <div className="stack-category">
               <p>Tools</p>
               <div className="icons">
-                <i className="devicon-git-plain colored" title="Git"></i>
-                <i className="devicon-github-original" title="GitHub"></i>
-                <i className="devicon-vscode-plain colored" title="VS Code"></i>
+                <i className="devicon-git-plain colored" title="Git">
+                  Git
+                </i>{" "}
+                <i className="devicon-github-original" title="GitHub">
+                  GitHub
+                </i>{" "}
+                <i className="devicon-vscode-plain colored" title="VS Code">
+                  VS Code
+                </i>{" "}
+                <i className="devicon-netlify-plain colored">Netlify</i>
               </div>
             </div>
           </li>

@@ -16,12 +16,16 @@ export default function About() {
         welcome people felt when they walked in the door. That experience taught
         me how to stay adaptable in fast-paced environments, solve problems
         quickly, and most importantly, put people at the center of everything I
-        do. Now, I’m bringing that same mindset into web development. To me,
+        do.
+      </p>
+      <p>
+        Now, I’m bringing that same mindset into web development. To me,
         websites are like digital spaces: they should be intuitive, engaging,
         and easy to navigate, just like a well-run café. My goal is to build
         projects that don’t just work, but feel welcoming and meaningful for the
-        people using them. I’m especially excited about:
+        people using them.
       </p>
+      <p>I’m especially excited about:</p>
       <ul>
         <li>
           Front-end development — bringing designs to life with clean,
@@ -40,8 +44,8 @@ export default function About() {
         For me, it’s all about translating human connection into pixels —
         building digital experiences that are functional, thoughtful, and a
         little bit personal. When I’m not coding, you’ll probably find me
-        [optional personal touch — e.g., “experimenting with new coffee brews,
-        exploring local cafés, or sketching design ideas in a notebook”].
+        reading a Stephen King novel or hiking around the georgeous Cape
+        Peninsula.
       </p>
       <a href={MyPDF} download={MyPDF}>
         Download CV

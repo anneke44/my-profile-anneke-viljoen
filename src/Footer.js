@@ -15,9 +15,7 @@ export default function Footer() {
         rel="noreferrer"
         className="link-icon"
       >
-        <i class="devicon-github-original"></i>
-
-        {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
+        <i className="devicon-github-original"></i>
       </a>
       , and is hosted on Netlify
       <a
@@ -26,7 +24,7 @@ export default function Footer() {
         rel="noreferrer"
         className="link-icon"
       >
-        <i class="devicon-netlify-plain"></i>
+        <i className="devicon-netlify-plain"></i>
       </a>
     </div>
   );

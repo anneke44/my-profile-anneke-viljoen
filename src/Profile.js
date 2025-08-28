@@ -22,12 +22,16 @@ export default function Profile() {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
+                <h5 className="card-title">Welcome to Cape Town</h5>
+                <p className="card-text">Responsive web-page.</p>
+                <i className="devicon-html5-plain colored" title="HTML5"></i>
+                <i className="devicon-css3-plain colored" title="CSS3"></i>
+                <i
+                  className="devicon-javascript-plain colored"
+                  title="JavaScript"
+                ></i>
+                <i className="devicon-react-original colored" title="React"></i>
+                <i className="devicon-bootstrap-plain"></i>
               </div>
             </div>
           </div>
@@ -39,12 +43,17 @@ export default function Profile() {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
+                <h5 className="card-title">Dictionary App</h5>
+                <p className="card-text">Search engine & API integration.</p>
+                <i className="devicon-html5-plain colored" title="HTML5"></i>
+                <i className="devicon-css3-plain colored" title="CSS3"></i>
+                <i
+                  className="devicon-javascript-plain colored"
+                  title="JavaScript"
+                ></i>
+                <i className="devicon-react-original colored" title="React"></i>
+                <i className="devicon-axios-plain"></i>
+                <i className="devicon-bootstrap-plain"></i>
               </div>
             </div>
           </div>
@@ -56,11 +65,17 @@ export default function Profile() {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content.
-                </p>
+                <h5 className="card-title">Weather App</h5>
+                <p className="card-text">Search Engine & API integration</p>
+                <i className="devicon-html5-plain colored" title="HTML5"></i>
+                <i className="devicon-css3-plain colored" title="CSS3"></i>
+                <i
+                  className="devicon-javascript-plain colored"
+                  title="JavaScript"
+                ></i>
+                <i className="devicon-react-original colored" title="React"></i>
+                <i className="devicon-axios-plain"></i>
+                <i className="devicon-bootstrap-plain"></i>
               </div>
             </div>
           </div>
@@ -72,12 +87,16 @@ export default function Profile() {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">World Clock</h5>
                 <p className="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  JS Timing Events, JS Date Formats, JS Time Zones
                 </p>
+                <i className="devicon-html5-plain colored" title="HTML5"></i>
+                <i className="devicon-css3-plain colored" title="CSS3"></i>
+                <i
+                  className="devicon-javascript-plain colored"
+                  title="JavaScript"
+                ></i>
               </div>
             </div>
           </div>
@@ -89,12 +108,15 @@ export default function Profile() {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
+                <h5 className="card-title">Short Story Generator</h5>
+                <p className="card-text">AI API Text Generator</p>
+                <i className="devicon-html5-plain colored" title="HTML5"></i>
+                <i className="devicon-css3-plain colored" title="CSS3"></i>
+                <i
+                  className="devicon-javascript-plain colored"
+                  title="JavaScript"
+                ></i>
+                <i className="devicon-axios-plain"></i>
               </div>
             </div>
           </div>
