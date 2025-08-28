@@ -33,9 +33,19 @@ export default function HomepageHero() {
           </a>
         </div>
       </div>
-      <HomepageAbout />
-      <HomepageProject />
-      <HomepageConnect />
+      <div className="container container-fluid">
+        <div className="row">
+          <div className="col-6 ">
+            <HomepageAbout />
+          </div>
+          <div className="col-6">
+            <HomepageProject />
+          </div>
+          <div className="col-12 text-center">
+            <HomepageConnect />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
