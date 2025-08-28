@@ -1,6 +1,8 @@
 import React from "react";
 import "./HomepageHero.css";
 import HomepageAbout from "./HomepageAbout";
+import HomepageProject from "./HomepageProject";
+import HomepageConnect from "./HomepageConnect";
 
 export default function HomepageHero() {
   return (
@@ -32,6 +34,8 @@ export default function HomepageHero() {
         </div>
       </div>
       <HomepageAbout />
+      <HomepageProject />
+      <HomepageConnect />
     </div>
   );
 }
