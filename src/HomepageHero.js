@@ -3,6 +3,7 @@ import "./HomepageHero.css";
 import HomepageAbout from "./HomepageAbout";
 import HomepageProject from "./HomepageProject";
 import HomepageConnect from "./HomepageConnect";
+import HomepageTech from "./HomepageTech";
 
 export default function HomepageHero() {
   return (
@@ -23,7 +24,7 @@ export default function HomepageHero() {
         <div>
           <a
             id="button-link"
-            href="/contact.html"
+            href="/contact"
             title="Contact Anneke"
             className="text-decoration-none"
           >
@@ -40,6 +41,9 @@ export default function HomepageHero() {
           </div>
           <div className="homepage-project col-6">
             <HomepageProject />
+          </div>
+          <div className="homepage-tech col-12 text-center">
+            <HomepageTech />
           </div>
           <div className="homepage-connect col-12 text-center">
             <HomepageConnect />

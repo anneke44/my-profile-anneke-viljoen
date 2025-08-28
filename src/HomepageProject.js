@@ -15,9 +15,16 @@ export default function HomepageProject() {
               <li>Project Three – A design experiment exploring [Z].</li>
             </ul>
           </p>
-          <button id="launch-button" className="btn btn-branding">
-            read more
-          </button>
+          <a
+            id="button-link"
+            href="/Profile"
+            title="Anneke Portfolio"
+            className="text-decoration-none"
+          >
+            <button id="launch-button" className="btn btn-branding">
+              read more
+            </button>
+          </a>
         </div>
       </div>
     </div>

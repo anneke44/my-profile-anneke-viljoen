@@ -12,4 +12,6 @@
 .link-icon {
   color: #006a71;
   font-size: 20px;
+  text-decoration: none;
+  margin: 4px;
 }

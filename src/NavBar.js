@@ -36,7 +36,7 @@ export default function NavBar() {
                     isActive ? "active-link" : "page-link"
                   }
                 >
-                  profile
+                  portfolio
                 </NavLink>
               </li>
               <li>

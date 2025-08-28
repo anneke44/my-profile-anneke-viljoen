@@ -1,5 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import "./Footer.css";
@@ -16,16 +15,18 @@ export default function Footer() {
         rel="noreferrer"
         className="link-icon"
       >
-        <FontAwesomeIcon icon="fa-brands fa-github" />
+        <i class="devicon-github-original"></i>
+
+        {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
       </a>
-      , and hosted on Netlify. Check out my LinkedIn
+      , and is hosted on Netlify
       <a
         href="https://github.com/anneke44"
         target="_blank"
         rel="noreferrer"
         className="link-icon"
       >
-        <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+        <i class="devicon-netlify-plain"></i>
       </a>
     </div>
   );

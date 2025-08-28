@@ -14,9 +14,16 @@ export default function HomepageAbout() {
             development — building websites that are intuitive, engaging, and
             human-centered.
           </p>
-          <button id="launch-button" className="btn btn-branding">
-            read more
-          </button>
+          <a
+            id="button-link"
+            href="/about"
+            title="About Anneke"
+            className="text-decoration-none"
+          >
+            <button id="launch-button" className="btn btn-branding">
+              read more
+            </button>
+          </a>
         </div>
       </div>
     </div>
