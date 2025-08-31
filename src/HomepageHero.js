@@ -4,6 +4,7 @@ import HomepageAbout from "./HomepageAbout";
 import HomepageProject from "./HomepageProject";
 import HomepageConnect from "./HomepageConnect";
 import HomepageTech from "./HomepageTech";
+import AnnekeSideProfile from "./assets/anneke-nb-side.png";
 
 export default function HomepageHero() {
   return (
@@ -21,17 +22,13 @@ export default function HomepageHero() {
             </ul>
           </div>
         </div>
-        <div>
-          <a
-            id="button-link"
-            href="/contact"
-            title="Contact Anneke"
-            className="text-decoration-none"
-          >
-            <button id="launch-button" className="btn btn-branding">
-              Contact
-            </button>
-          </a>
+        <div className="image-container">
+          <img
+            src={AnnekeSideProfile}
+            alt="anneke side profile"
+            className="anneke-side-profile"
+          />
+          <div className="fade-overlay"></div>
         </div>
       </div>
       <div className="container container-fluid">
