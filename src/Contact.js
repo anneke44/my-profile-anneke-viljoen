@@ -13,8 +13,9 @@ export default function Contact() {
         target="_blank"
         rel="noreferrer"
         className="link-icon"
+        title="LinkedIn Profile"
       >
-        <i class="devicon-linkedin-plain"></i>
+        <i className="devicon-linkedin-plain"></i>
       </a>
       <h3>Phone</h3>
       <p>+27 71 786 0727</p>

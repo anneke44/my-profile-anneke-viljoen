@@ -5,6 +5,11 @@
 .Profile img {
   border: 2px solid #006a71;
   border-radius: 4px;
+  transition: all 200ms ease-in-out;
+}
+.Profile img:hover {
+  border: 3px solid #48a6a7;
+  opacity: 0.8;
 }
 .Profile h1 {
   text-align: center;

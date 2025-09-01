@@ -16,6 +16,7 @@ export default function HomepageConnect() {
           target="_blank"
           rel="noreferrer"
           className="link-icon"
+          title="LinkedIn Profile"
         >
           <i className="devicon-linkedin-plain"></i>
         </a>

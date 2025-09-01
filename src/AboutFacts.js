@@ -5,7 +5,7 @@ import "./AboutFacts.css";
 export default function AboutFacts() {
   return (
     <div className="AboutFacts">
-      <h2>Things I 💙</h2>
+      <h2>Things I Love</h2>
       <ul>
         <li>
           Reading books — especially Stephen King (the weirder and gorier, the

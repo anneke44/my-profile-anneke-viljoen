@@ -1258,6 +1258,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource-variable/roboto/-/roboto-5.2.6.tgz#1a618f7a9c70e756214352ce2c3864d1c61001dc"
   integrity sha512-bKgCwHdRcUcHPmypU5oih+OnTQUnZ7XBoztJ0W2X+m7WRYITTWnnnQBDPAKbOwiemU/yJHGg+lD03M60BGuuGg==
 
+"@fontsource/zeyada@^5.2.6":
+  version "5.2.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/zeyada/-/zeyada-5.2.6.tgz#554a1a448b3efd95d841170abc39b808d5d68fdd"
+  integrity sha512-BKil77kZgugORJK9rEvHa7vrZqPSW+Jsfwfh2tFLn6mp4UfCtibajYYNkEWqQ3oAFseiDFHXqlwI1F95BTUs0w==
+
 "@fortawesome/fontawesome-common-types@7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-7.0.0.tgz#1a03eb151263bffcc9c4d0b0b0ffef04496e4382"

@@ -16,11 +16,18 @@ export default function Profile() {
         <div className="row row-cols-1 row-cols-md-2 g-4">
           <div className="col">
             <div className="card">
-              <img
-                src={CapeTown}
-                className="card-img-top img-fluid"
-                alt="..."
-              />
+              <a
+                href="https://keen-youtiao-9d3126.netlify.app/"
+                target="_blanl"
+                rel="noreferrer"
+                title="Launch Cape Town App"
+              >
+                <img
+                  src={CapeTown}
+                  className="card-img-top img-fluid"
+                  alt="Cape Town App"
+                />
+              </a>
               <div className="card-body">
                 <h5 className="card-title">Welcome to Cape Town</h5>
                 <p className="card-text">Responsive web-page.</p>
@@ -37,11 +44,18 @@ export default function Profile() {
           </div>
           <div className="col">
             <div className="card">
-              <img
-                src={DictionaryApp}
-                className="card-img-top img-fluid"
-                alt="..."
-              />
+              <a
+                href="https://annekedictionary.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                title="Launch Dictionary App"
+              >
+                <img
+                  src={DictionaryApp}
+                  className="card-img-top img-fluid"
+                  alt="Dictionary App"
+                />
+              </a>
               <div className="card-body">
                 <h5 className="card-title">Dictionary App</h5>
                 <p className="card-text">Search engine & API integration.</p>
@@ -59,11 +73,18 @@ export default function Profile() {
           </div>
           <div className="col">
             <div className="card">
-              <img
-                src={WeatherApp}
-                className="card-img-top img-fluid"
-                alt="..."
-              />
+              <a
+                href="https://annekeweather.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                title="Launch Weather App"
+              >
+                <img
+                  src={WeatherApp}
+                  className="card-img-top img-fluid"
+                  alt="Weather App"
+                />
+              </a>
               <div className="card-body">
                 <h5 className="card-title">Weather App</h5>
                 <p className="card-text">Search Engine & API integration</p>
@@ -81,11 +102,18 @@ export default function Profile() {
           </div>
           <div className="col">
             <div className="card">
-              <img
-                src={WorldClock}
-                className="card-img-top img-fluid"
-                alt="..."
-              />
+              <a
+                href="https://anneke-world-clock.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                title="Launch World Clock"
+              >
+                <img
+                  src={WorldClock}
+                  className="card-img-top img-fluid"
+                  alt="World Clock App"
+                />
+              </a>
               <div className="card-body">
                 <h5 className="card-title">World Clock</h5>
                 <p className="card-text">
@@ -102,11 +130,18 @@ export default function Profile() {
           </div>
           <div className="col">
             <div className="card">
-              <img
-                src={ShortStory}
-                className="card-img-top img-fluid"
-                alt="..."
-              />
+              <a
+                href="https://short-story-generator.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                title="Launch Short Story Generator"
+              >
+                <img
+                  src={ShortStory}
+                  className="card-img-top img-fluid"
+                  alt="Short Story Generator"
+                />
+              </a>
               <div className="card-body">
                 <h5 className="card-title">Short Story Generator</h5>
                 <p className="card-text">AI API Text Generator</p>

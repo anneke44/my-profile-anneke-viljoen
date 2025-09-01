@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "@fontsource/zeyada";
 import "./NavBar.css";
 import logo from "./AnnekeTranLogo.png";
 
@@ -15,13 +16,15 @@ export default function NavBar() {
                 alt="Logo"
                 className="anneke-logo img img-fluid"
               />
-            </NavLink>
+            </NavLink>{" "}
+            <span className="signature">Anneke Viljoen</span>
           </div>
           <div className="dropDown">
             <ul>
               <li>
                 <NavLink
                   to="./About"
+                  title="About"
                   className={({ isActive }) =>
                     isActive ? "active-link" : "page-link"
                   }
@@ -32,6 +35,7 @@ export default function NavBar() {
               <li>
                 <NavLink
                   to="./Profile"
+                  title="Portfolio"
                   className={({ isActive }) =>
                     isActive ? "active-link" : "page-link"
                   }
@@ -42,6 +46,7 @@ export default function NavBar() {
               <li>
                 <NavLink
                   to="./Contact"
+                  title="Contact"
                   className={({ isActive }) =>
                     isActive ? "active-link" : "page-link"
                   }

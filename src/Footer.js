@@ -14,6 +14,7 @@ export default function Footer() {
         target="_blank"
         rel="noreferrer"
         className="link-icon"
+        title="GitHub Profile"
       >
         <i className="devicon-github-original"></i>
       </a>
@@ -23,6 +24,7 @@ export default function Footer() {
         target="_blank"
         rel="noreferrer"
         className="link-icon"
+        title="Netlify"
       >
         <i className="devicon-netlify-plain"></i>
       </a>

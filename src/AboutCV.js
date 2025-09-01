@@ -1,6 +1,5 @@
 import React from "react";
-import MyPDF from "./Anneke Viljoen CV 2025.pdf";
-
+import MyPDF from "./Anneke Viljoen CV.pdf";
 import "./AboutCV.css";
 
 export default function AboutCV() {
@@ -19,7 +18,7 @@ export default function AboutCV() {
           <i className="devicon-linkedin-plain"></i>
         </a>
       </div>
-      <a href={MyPDF} download={MyPDF}>
+      <a href={MyPDF} download={MyPDF} title="Download CV">
         <button id="launch-button" className="btn btn-branding">
           Download my CV
         </button>

@@ -2,6 +2,10 @@
   margin: 0px auto 100px;
   max-width: 100%;
 }
+.About p {
+  line-height: 1.5rem;
+  font-size: 14px;
+}
 .about-phrase {
   font-weight: 600;
 }
