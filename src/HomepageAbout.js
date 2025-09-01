@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./HomepageAbout.css";
 
 export default function HomepageAbout() {
@@ -15,16 +16,16 @@ export default function HomepageAbout() {
             people skills, adaptability, and a customer-first mindset into my
             tech journey.
           </p>
-          <a
+          <Link
             id="button-link"
-            href="/about"
+            to="/About"
             title="About Anneke"
             className="text-decoration-none"
           >
             <button id="launch-button" className="btn btn-branding">
               read more
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

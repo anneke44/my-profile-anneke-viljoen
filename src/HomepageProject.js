@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./HomepageProject.css";
 
@@ -23,16 +24,16 @@ export default function HomepageProject() {
               </li>
             </ul>
           </div>
-          <a
+          <Link
             id="button-link"
-            href="/Profile"
+            to="/Profile"
             title="Anneke Portfolio"
             className="text-decoration-none"
           >
             <button id="launch-button" className="btn btn-branding">
               read more
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
