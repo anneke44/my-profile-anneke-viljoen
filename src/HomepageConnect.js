@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import "./HomepageConnect.css";
 
@@ -21,16 +22,16 @@ export default function HomepageConnect() {
           <i className="devicon-linkedin-plain"></i>
         </a>
       </div>
-      <a
+      <NavLink
         id="button-link"
-        href="./Contact"
+        to="./Contact"
         title="Contact Anneke"
         className="text-decoration-none"
       >
         <button id="launch-button" className="btn btn-branding">
           reach out
         </button>
-      </a>
+      </NavLink>
     </div>
   );
 }
