@@ -23,7 +23,7 @@ export default function HomepageConnect() {
       </div>
       <a
         id="button-link"
-        href="/contact"
+        href="/Contact"
         title="Contact Anneke"
         className="text-decoration-none"
       >
