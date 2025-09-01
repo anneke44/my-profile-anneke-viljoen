@@ -1,9 +1,9 @@
 import React from "react";
-import MyPDF from "./Anneke Viljoen CV 2025.pdf";
 import "./About.css";
 import AnnekeSide from "./assets/anneke-nb-side3.png";
 import AboutImages from "./AboutImages";
 import AboutFacts from "./AboutFacts";
+import AboutCV from "./AboutCV";
 
 export default function About() {
   return (
@@ -48,10 +48,10 @@ export default function About() {
         </div>
       </div>
       <AboutImages />
-      <AboutFacts />
-      <a href={MyPDF} download={MyPDF}>
-        Download CV
-      </a>
+      <div className="about-section-CV">
+        <AboutFacts />
+        <AboutCV />
+      </div>
     </div>
   );
 }

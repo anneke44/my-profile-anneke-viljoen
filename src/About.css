@@ -1,5 +1,5 @@
 .About {
-  margin: 0px auto 200px;
+  margin: 0px auto 100px;
   max-width: 100%;
 }
 .about-container {
@@ -27,4 +27,10 @@
   font-size: 60px;
   opacity: 0.9;
   letter-spacing: 1px;
+}
+.about-section-CV {
+  display: flex;
+  justify-content: space-around;
+  margin: 120px auto;
+  align-items: center;
 }

@@ -10,9 +10,17 @@ export default function HomepageProject() {
           <h5 className="card-title">Projects</h5>
           <div className="card-text ">
             <ul>
-              <li>Project One – A responsive website showcasing [X].</li>
-              <li>Project Two – A web app built with [Y].</li>
-              <li>Project Three – A design experiment exploring [Z].</li>
+              <li>
+                Dictionary App – A responsive website showcasing Search Engine &
+                API integration.
+              </li>
+              <li>
+                Weather App – A web app built with React, Bootstrap and Axios.
+              </li>
+              <li>
+                World Clock – A design experiment exploring JS Timing Events, JS
+                Date Formats, JS Time Zones.
+              </li>
             </ul>
           </div>
           <a

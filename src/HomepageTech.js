@@ -5,7 +5,7 @@ import "./HomepageTech.css";
 export default function HomepageTech() {
   return (
     <div className="HomepageTech">
-      <div className="card">
+      <div className="card h-100">
         <div className="card-header">
           <h5>Tech Stack</h5>
         </div>

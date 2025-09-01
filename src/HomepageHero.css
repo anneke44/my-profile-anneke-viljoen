@@ -17,7 +17,7 @@
   opacity: 0.8;
 }
 .image-container {
-  position: bottom;
+  position: relative;
   height: 520px;
   width: 400px;
   overflow: hidden;
@@ -27,12 +27,8 @@
   width: 100%;
   object-fit: cover;
 }
-
-.homepage-about {
-  margin-top: 60px;
-}
-.homepage-project {
-  margin-top: 40px;
+.homepage-components {
+  margin: 60px auto;
 }
 .homepage-tech {
   margin-top: 40px;

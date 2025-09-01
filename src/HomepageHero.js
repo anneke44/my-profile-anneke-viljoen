@@ -31,13 +31,13 @@ export default function HomepageHero() {
           <div className="fade-overlay"></div>
         </div>
       </div>
-      <div className="container container-fluid">
-        <div className="row">
-          <div className="homepage-about col-8">
-            <HomepageAbout />
+      <div className="homepage-components container container-fluid">
+        <div className="row align-items-stretch" style={{ minHeight: "300px" }}>
+          <div className="homepage-about col d-flexw-100">
+            <HomepageAbout className="flex-fill" />
           </div>
-          <div className="homepage-project col-8">
-            <HomepageProject />
+          <div className="homepage-project col d-flexw-100">
+            <HomepageProject className="flex-fill" />
           </div>
           <div className="homepage-tech col-12 text-center">
             <HomepageTech />
