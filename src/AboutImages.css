@@ -1,0 +1,13 @@
+.AboutImages {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.about-image {
+  margin: 40px auto;
+  width: 100px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-in-out;
+}
+.about-image:hover {
+  transform: scale(1.5);
+}

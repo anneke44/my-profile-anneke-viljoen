@@ -3,48 +3,41 @@ import MyPDF from "./Anneke Viljoen CV 2025.pdf";
 import "./About.css";
 import AnnekeSide from "./assets/anneke-nb-side3.png";
 import AboutImages from "./AboutImages";
+import AboutFacts from "./AboutFacts";
 
 export default function About() {
   return (
     <div className="About">
       <div className="about-container">
-        <div className="about-desription flex-item">
+        <div className="about-desription">
           <h3 className="about-me mb-2">about.</h3>
-          <p className="fw-bold">
-            Front End Developer based in Cape Town, South Africa.
+          <p>Hospitality Roots, Tech Future.</p>
+          <p>
+            Hi, I’m Anneke. I come from a hospitality background, where I spent
+            the past ten years managing busy coffee shops. My career started in
+            Dubai as a server, and I quickly worked my way up into management.
+            While I thrived in the fast-paced hospitality environment—solving
+            problems on the spot, leading teams, and delivering excellent
+            customer experiences—I eventually realized that as an introvert, I
+            wasn’t feeling truly fulfilled.
           </p>
           <p>
-            Hi, I'm Anneke. Before I started writing code, I managed bustling
-            cafés — places where every detail mattered, from the flow of service
-            to how welcome people felt when they walked in the door. That
-            experience taught me how to stay adaptable in fast-paced
-            environments, solve problems quickly, and most importantly, put
-            people at the center of everything I do.
+            That’s when I stumbled upon a free coding course, and everything
+            changed. For the first time in my life, I found something I
+            genuinely enjoy: writing code. I love the focus, the
+            problem-solving, and the logical challenges behind development.
+            Since completing a bootcamp, I’ve been building projects, sharpening
+            my skills, and investing in my growth as a developer.
           </p>
           <p>
-            Now, I’m bringing that same mindset into web development. To me,
-            websites are like digital spaces: they should be intuitive,
-            engaging, and easy to navigate, just like a well-run café. My goal
-            is to build projects that don’t just work, but feel welcoming and
-            meaningful for the people using them.
+            I bring with me a unique perspective: years of people-focused
+            experience, critical thinking under pressure, and the ability to
+            adapt quickly. Now, I’m channeling those strengths into tech, where
+            my goal is to grow into a full-stack developer—and eventually
+            explore the world of AI development.
           </p>
-          <p>I’m especially excited about:</p>
-          <ul>
-            <li>
-              Front-end development — bringing designs to life with clean,
-              responsive code.
-            </li>
-            <li>
-              User experience — crafting interfaces that prioritize usability
-              and accessibility.
-            </li>
-            <li>
-              Blending creativity and logic — using both design sense and
-              technical skills to build projects that connect with people.
-            </li>
-          </ul>
         </div>
-        <div className="about-image flex-item">
+        <div className="about-pic">
           <div className="image-container">
             <img
               src={AnnekeSide}
@@ -55,6 +48,7 @@ export default function About() {
         </div>
       </div>
       <AboutImages />
+      <AboutFacts />
       <a href={MyPDF} download={MyPDF}>
         Download CV
       </a>

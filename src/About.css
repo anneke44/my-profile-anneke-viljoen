@@ -1,20 +1,16 @@
 .About {
   margin: 0px auto 200px;
   max-width: 100%;
-  height: fit-content;
 }
 .about-container {
   display: flex;
-  justify-content: space-around;
+  padding: 60px 20px 0 60px;
   max-width: 100%;
+  justify-content: space-around;
   height: fit-content;
   align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   background-color: #f2f2f2;
-}
-.about-container {
-  margin: 0;
-  padding: 20px 0 0 40px;
 }
 .image-container {
   position: relative;
