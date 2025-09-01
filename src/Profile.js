@@ -10,7 +10,7 @@ export default function Profile() {
   return (
     <div className="Profile">
       <div>
-        <h1>My Portfolio</h1>
+        <h1>portfolio.</h1>
       </div>
       <div className="portfolio-container container">
         <div className="row row-cols-1 row-cols-md-2 g-4">

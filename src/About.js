@@ -11,7 +11,7 @@ export default function About() {
       <div className="about-container">
         <div className="about-desription">
           <h3 className="about-me mb-2">about.</h3>
-          <p>Hospitality Roots, Tech Future.</p>
+          <p className="about-phrase">Hospitality Roots, Tech Future.</p>
           <p>
             Hi, I’m Anneke. I come from a hospitality background, where I spent
             the past ten years managing busy coffee shops. My career started in

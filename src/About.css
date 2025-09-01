@@ -2,6 +2,9 @@
   margin: 0px auto 100px;
   max-width: 100%;
 }
+.about-phrase {
+  font-weight: 600;
+}
 .about-container {
   display: flex;
   padding: 60px 20px 0 60px;
@@ -10,7 +13,6 @@
   height: fit-content;
   align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-  background-color: #f2f2f2;
 }
 .image-container {
   position: relative;
@@ -25,12 +27,13 @@
 }
 .about-me {
   font-size: 60px;
-  opacity: 0.9;
+  color: #006a71;
+  opacity: 0.8;
   letter-spacing: 1px;
 }
 .about-section-CV {
   display: flex;
   justify-content: space-around;
-  margin: 120px auto;
+  margin: 100px auto;
   align-items: center;
 }

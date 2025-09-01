@@ -16,8 +16,8 @@ export default function HomepageHero() {
               <li className="heading">Anneke Viljoen</li>
               <li className="heading">Front End Developer</li>
               <li className="slogan">
-                “Turning customer experience into user experience — one pixel at
-                a time.”
+                Turning customer experience into user experience — one pixel at
+                a time
               </li>
             </ul>
           </div>

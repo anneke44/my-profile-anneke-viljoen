@@ -9,4 +9,8 @@
 .Profile h1 {
   text-align: center;
   margin: 60px auto 60px;
+  font-size: 60px;
+  color: #006a71;
+  opacity: 0.8;
+  letter-spacing: 1px;
 }

@@ -1,3 +1,6 @@
 .icons i {
   font-size: 20px;
 }
+.card-header {
+  background-color: rgba(154, 203, 208, 0.1);
+}
