@@ -1,4 +1,7 @@
 .App {
   margin: 0px auto;
+  width: 100vw;
+  width: 100dvw;
+  overflow-x: hidden;
   font-family: "Roboto Variable", sans-serif;
 }
