@@ -3,4 +3,5 @@
   width: 100dvw;
   overflow-x: hidden;
   font-family: "Roboto Variable", sans-serif;
+  border: 1px solid black;
 }
