@@ -23,7 +23,7 @@ export default function NavBar() {
             <ul>
               <li>
                 <NavLink
-                  to="./About"
+                  to="/about"
                   title="About"
                   className={({ isActive }) =>
                     isActive ? "active-link" : "page-link"
@@ -34,7 +34,7 @@ export default function NavBar() {
               </li>
               <li>
                 <NavLink
-                  to="./Profile"
+                  to="/profile"
                   title="Portfolio"
                   className={({ isActive }) =>
                     isActive ? "active-link" : "page-link"
@@ -45,7 +45,7 @@ export default function NavBar() {
               </li>
               <li>
                 <NavLink
-                  to="./Contact"
+                  to="/contact"
                   title="Contact"
                   className={({ isActive }) =>
                     isActive ? "active-link" : "page-link"
