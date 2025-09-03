@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "@fontsource/zeyada";
 import "./NavBar.css";
-import logo from "./AnnekeTranLogo.png";
+import logo from "../assets/logos/AnnekeTranLogo.png";
 
 export default function NavBar() {
   return (

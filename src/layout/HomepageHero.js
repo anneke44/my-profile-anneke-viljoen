@@ -1,10 +1,10 @@
 import React from "react";
 import "./HomepageHero.css";
-import HomepageAbout from "./HomepageAbout";
-import HomepageProject from "./HomepageProject";
-import HomepageConnect from "./HomepageConnect";
-import HomepageTech from "./HomepageTech";
-import AnnekeSideProfile from "./assets/anneke-nb-side.png";
+import HomepageAbout from "../homepagecomponents/HomepageAbout";
+import HomepageProject from "../homepagecomponents/HomepageProject";
+import HomepageConnect from "../homepagecomponents/HomepageConnect";
+import HomepageTech from "../homepagecomponents/HomepageTech";
+import AnnekeSideProfile from "../assets/annekephotos/anneke-nb-side.png";
 
 export default function HomepageHero() {
   return (

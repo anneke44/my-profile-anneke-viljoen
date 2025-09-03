@@ -1,10 +1,10 @@
 import React from "react";
 import "./Profile.css";
-import CapeTown from "./capetown.png";
-import DictionaryApp from "./dictionaryapp.png";
-import WeatherApp from "./weatherapp.png";
-import WorldClock from "./worldclock.png";
-import ShortStory from "./shortstory.png";
+import CapeTown from "../assets/projectscreenshots/capetown.png";
+import DictionaryApp from "../assets/projectscreenshots/dictionaryapp.png";
+import WeatherApp from "../assets/projectscreenshots/weatherapp.png";
+import WorldClock from "../assets/projectscreenshots/worldclock.png";
+import ShortStory from "../assets/projectscreenshots/shortstory.png";
 
 export default function Profile() {
   return (

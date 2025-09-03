@@ -1,5 +1,5 @@
 import React from "react";
-import MyPDF from "./Anneke Viljoen CV.pdf";
+import MyPDF from "../assets/Anneke Viljoen CV.pdf";
 import "./AboutCV.css";
 
 export default function AboutCV() {

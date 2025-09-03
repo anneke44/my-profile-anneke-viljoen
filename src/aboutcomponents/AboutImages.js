@@ -1,13 +1,13 @@
 import React from "react";
 import "./AboutImages.css";
-import image1 from "./assets/scroll-images/img1.jpg";
-import image2 from "./assets/scroll-images/img2.jpg";
-import image3 from "./assets/scroll-images/img3.jpg";
-import image4 from "./assets/scroll-images/img4.jpg";
-import image5 from "./assets/scroll-images/img5.jpg";
-import image7 from "./assets/scroll-images/img7.jpg";
-import image8 from "./assets/scroll-images/img8.jpg";
-import image9 from "./assets/scroll-images/img9.jpg";
+import image1 from "../assets/scroll-images/img1.jpg";
+import image2 from "../assets/scroll-images/img2.jpg";
+import image3 from "../assets/scroll-images/img3.jpg";
+import image4 from "../assets/scroll-images/img4.jpg";
+import image5 from "../assets/scroll-images/img5.jpg";
+import image7 from "../assets/scroll-images/img7.jpg";
+import image8 from "../assets/scroll-images/img8.jpg";
+import image9 from "../assets/scroll-images/img9.jpg";
 
 export default function AboutImages() {
   return (

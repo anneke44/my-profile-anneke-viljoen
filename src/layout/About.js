@@ -1,9 +1,9 @@
 import React from "react";
 import "./About.css";
-import AnnekeSide from "./assets/anneke-nb-side3.png";
-import AboutImages from "./AboutImages";
-import AboutFacts from "./AboutFacts";
-import AboutCV from "./AboutCV";
+import AnnekeSide from "../assets/annekephotos/anneke-nb-side3.png";
+import AboutImages from "../aboutcomponents/AboutImages";
+import AboutFacts from "../aboutcomponents/AboutFacts";
+import AboutCV from "../aboutcomponents/AboutCV";
 
 export default function About() {
   return (
