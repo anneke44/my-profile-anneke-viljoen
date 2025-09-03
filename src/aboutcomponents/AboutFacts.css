@@ -12,9 +12,14 @@
 @media (max-width: 768px) {
   .AboutFacts {
     text-align: center;
-    font-size: smaller;
+    font-size: 12px;
+    padding: 0 20px;
+  }
+  .AboutFacts h2 {
+    margin-bottom: 10px;
   }
   .AboutFacts li {
-    line-height: 1.6;
+    line-height: 1.4;
+    margin-bottom: 5px;
   }
 }

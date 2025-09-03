@@ -21,4 +21,14 @@
   #launch-button {
     font-size: smaller;
   }
+  .card-title {
+    margin-bottom: 15px;
+  }
+  .card-text {
+    margin: 0;
+    line-height: 2;
+    height: fit-content;
+    text-align: center;
+    align-content: center;
+  }
 }

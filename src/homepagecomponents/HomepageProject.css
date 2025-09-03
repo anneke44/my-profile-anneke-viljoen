@@ -18,17 +18,30 @@
 
 @media (max-width: 768px) {
   .HomepageProject {
-    text-align: center;
+    height: fit-content;
     font-size: smaller;
+    text-align: center;
     margin-top: 40px;
   }
   .HomepageProject ul {
     list-style: none;
+    padding: 0;
   }
   .HomepageProject li {
     margin-bottom: 8px;
   }
   #launch-button {
     font-size: smaller;
+    margin: 10px auto;
+  }
+  .card-title {
+    margin-bottom: 15px;
+  }
+  .card-text {
+    margin: 0;
+    line-height: 2;
+    height: fit-content;
+    text-align: center;
+    align-content: center;
   }
 }

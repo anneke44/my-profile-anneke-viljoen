@@ -26,7 +26,7 @@ export default function HomepageHero() {
           <img
             src={AnnekeSideProfile}
             alt="anneke side profile"
-            className="anneke-side-profile"
+            className="anneke-side-profile img-fluid"
           />
           <div className="fade-overlay"></div>
         </div>

@@ -19,3 +19,11 @@
   opacity: 0.8;
   letter-spacing: 1px;
 }
+.project-card-text {
+  background-color: rgba(154, 203, 208, 0.4);
+}
+@media (max-width: 768px) {
+  .project-card-text {
+    text-align: center;
+  }
+}

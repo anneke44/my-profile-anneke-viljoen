@@ -28,7 +28,7 @@ export default function Profile() {
                   alt="Cape Town App"
                 />
               </a>
-              <div className="card-body">
+              <div className="card-body project-card-text">
                 <h5 className="card-title">Welcome to Cape Town</h5>
                 <p className="card-text">Responsive web-page.</p>
                 <i className="devicon-html5-plain colored" title="HTML5"></i>
@@ -56,7 +56,7 @@ export default function Profile() {
                   alt="Dictionary App"
                 />
               </a>
-              <div className="card-body">
+              <div className="card-body project-card-text">
                 <h5 className="card-title">Dictionary App</h5>
                 <p className="card-text">Search engine & API integration.</p>
                 <i className="devicon-html5-plain colored" title="HTML5"></i>
@@ -85,7 +85,7 @@ export default function Profile() {
                   alt="Weather App"
                 />
               </a>
-              <div className="card-body">
+              <div className="card-body project-card-text">
                 <h5 className="card-title">Weather App</h5>
                 <p className="card-text">Search Engine & API integration</p>
                 <i className="devicon-html5-plain colored" title="HTML5"></i>
@@ -114,7 +114,7 @@ export default function Profile() {
                   alt="World Clock App"
                 />
               </a>
-              <div className="card-body">
+              <div className="card-body project-card-text">
                 <h5 className="card-title">World Clock</h5>
                 <p className="card-text">
                   JS Timing Events, JS Date Formats, JS Time Zones
@@ -142,7 +142,7 @@ export default function Profile() {
                   alt="Short Story Generator"
                 />
               </a>
-              <div className="card-body">
+              <div className="card-body project-card-text">
                 <h5 className="card-title">Short Story Generator</h5>
                 <p className="card-text">AI API Text Generator</p>
                 <i className="devicon-html5-plain colored" title="HTML5"></i>

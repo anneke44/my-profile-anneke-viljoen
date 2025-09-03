@@ -72,12 +72,22 @@
 }
 
 @media (max-width: 768px) {
+  .HomepageHero {
+    margin: 60px auto 40px auto;
+  }
   .primary-heading ul {
     text-align: center;
     font-size: 32px;
-    margin-bottom: 40px;
+    margin: 40px auto 60px;
+    padding: 0;
   }
   .slogan {
     display: none;
+  }
+  .homepage-components {
+    margin: 60px auto 40px;
+  }
+  .homepage-connect {
+    margin-top: 60px;
   }
 }

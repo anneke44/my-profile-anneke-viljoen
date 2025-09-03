@@ -15,6 +15,6 @@
 
 @media (max-width: 768px) {
   .about-image {
-    margin: 20px auto;
+    display: none;
   }
 }
