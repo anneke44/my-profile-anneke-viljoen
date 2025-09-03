@@ -17,7 +17,7 @@ export default function NavBar() {
                 className="anneke-logo img img-fluid"
               />
             </NavLink>{" "}
-            <span className="signature">Anneke Viljoen</span>
+            <span className="signature">AnnekeViljoen</span>
           </div>
           <div className="dropDown">
             <ul>

@@ -8,7 +8,7 @@ import AboutCV from "../aboutcomponents/AboutCV";
 export default function About() {
   return (
     <div className="About">
-      <div className="about-container">
+      <div className="about-container d-flex flex-column flex-md-row">
         <div className="about-desription">
           <h3 className="about-me mb-2">about.</h3>
           <p className="about-phrase">Hospitality Roots, Tech Future.</p>
@@ -42,13 +42,13 @@ export default function About() {
             <img
               src={AnnekeSide}
               alt="anneke profile"
-              className="anneke-profile"
+              className="anneke-profile img-fluid"
             />
           </div>
         </div>
       </div>
       <AboutImages />
-      <div className="about-section-CV">
+      <div className="about-section-CV d-flex flex-column flex-md-row">
         <AboutFacts />
         <AboutCV />
       </div>

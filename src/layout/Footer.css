@@ -18,3 +18,12 @@
 .link-icon:hover {
   color: #48a6a7;
 }
+
+@media (max-width: 768px) {
+  .Footer {
+    font-size: 12px;
+  }
+  .link-icon {
+    font-size: 16px;
+  }
+}

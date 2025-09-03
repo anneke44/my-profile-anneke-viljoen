@@ -15,3 +15,20 @@
   border: 1px solid #48a6a7;
   background-color: #48a6a7;
 }
+
+@media (max-width: 768px) {
+  .HomepageProject {
+    text-align: center;
+    font-size: smaller;
+    margin-top: 40px;
+  }
+  .HomepageProject ul {
+    list-style: none;
+  }
+  .HomepageProject li {
+    margin-bottom: 8px;
+  }
+  #launch-button {
+    font-size: smaller;
+  }
+}

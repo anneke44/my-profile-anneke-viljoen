@@ -10,7 +10,6 @@
   font-weight: 600;
 }
 .about-container {
-  display: flex;
   padding: 60px 20px 0 60px;
   max-width: 100%;
   justify-content: space-around;
@@ -36,8 +35,24 @@
   letter-spacing: 1px;
 }
 .about-section-CV {
-  display: flex;
   justify-content: space-around;
   margin: 100px auto;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .About {
+    margin: 0px auto 60px;
+  }
+  .about-container {
+    padding: 10px auto;
+    text-align: center;
+  }
+  .about-section-CV {
+    margin: 60px auto;
+  }
+  .image-container {
+    height: 320px;
+    width: 200px;
+  }
 }

@@ -9,7 +9,7 @@ import AnnekeSideProfile from "../assets/annekephotos/anneke-nb-side.png";
 export default function HomepageHero() {
   return (
     <div className="HomepageHero">
-      <div className="hero-heading d-flex">
+      <div className="hero-heading d-flex flex-column flex-md-row">
         <div>
           <div className="primary-heading">
             <ul>
@@ -33,10 +33,10 @@ export default function HomepageHero() {
       </div>
       <div className="homepage-components container container-fluid">
         <div className="row align-items-stretch" style={{ minHeight: "300px" }}>
-          <div className="homepage-about col d-flexw-100">
+          <div className="homepage-about col-12 col-md-6 d-flexw-100">
             <HomepageAbout className="flex-fill" />
           </div>
-          <div className="homepage-project col d-flexw-100">
+          <div className="homepage-project col-12 col-md-6 d-flexw-100">
             <HomepageProject className="flex-fill" />
           </div>
           <div className="homepage-tech col-12 text-center">

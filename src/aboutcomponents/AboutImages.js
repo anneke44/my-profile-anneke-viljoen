@@ -15,28 +15,28 @@ export default function AboutImages() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <img src={image1} alt="tba" className="about-image" />
+            <img src={image1} alt="tba" className="about-image img-fluid" />
           </div>
           <div className="col">
-            <img src={image2} alt="tba" className="about-image" />
+            <img src={image2} alt="tba" className="about-image img-fluid" />
           </div>
           <div className="col">
-            <img src={image3} alt="tba" className="about-image" />
+            <img src={image3} alt="tba" className="about-image img-fluid" />
           </div>
           <div className="col">
-            <img src={image4} alt="tba" className="about-image" />
+            <img src={image4} alt="tba" className="about-image img-fluid" />
           </div>
           <div className="col">
-            <img src={image5} alt="tba" className="about-image" />
+            <img src={image5} alt="tba" className="about-image img-fluid" />
           </div>
           <div className="col">
-            <img src={image7} alt="tba" className="about-image" />
+            <img src={image7} alt="tba" className="about-image img-fluid" />
           </div>
           <div className="col">
-            <img src={image8} alt="tba" className="about-image" />
+            <img src={image8} alt="tba" className="about-image img-fluid" />
           </div>
           <div className="col">
-            <img src={image9} alt="tba" className="about-image" />
+            <img src={image9} alt="tba" className="about-image img-fluid" />
           </div>
         </div>
       </div>

@@ -70,3 +70,14 @@
   border: 1px solid #48a6a7;
   background-color: #48a6a7;
 }
+
+@media (max-width: 768px) {
+  .primary-heading ul {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  .slogan {
+    display: none;
+  }
+}

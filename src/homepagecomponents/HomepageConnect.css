@@ -21,3 +21,16 @@
 .link-icon:hover {
   color: #48a6a7;
 }
+
+@media (max-width: 768px) {
+  .HomepageConnect {
+    margin: auto 20px;
+    font-size: smaller;
+  }
+  .link-icon {
+    font-size: 16px;
+  }
+  #launch-button {
+    font-size: smaller;
+  }
+}

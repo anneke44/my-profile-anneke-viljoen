@@ -8,3 +8,13 @@
 .AboutFacts h2 {
   letter-spacing: 1px;
 }
+
+@media (max-width: 768px) {
+  .AboutFacts {
+    text-align: center;
+    font-size: smaller;
+  }
+  .AboutFacts li {
+    line-height: 1.6;
+  }
+}

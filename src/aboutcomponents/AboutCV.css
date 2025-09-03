@@ -24,3 +24,12 @@
 .link-icon:hover {
   color: #48a6a7;
 }
+@media (max-width: 768px) {
+  .AboutCV {
+    margin-top: 60px;
+    font-size: smaller;
+  }
+  .link-icon {
+    font-size: 16px;
+  }
+}
