@@ -15,7 +15,7 @@
   justify-content: space-around;
   height: fit-content;
   align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
 }
 .image-container {
   position: relative;
