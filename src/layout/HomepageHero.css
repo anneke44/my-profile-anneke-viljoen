@@ -6,7 +6,7 @@
   height: fit-content;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
 }
 .primary-heading ul {
   font-size: 50px;
@@ -78,7 +78,7 @@
   .primary-heading ul {
     text-align: center;
     font-size: 32px;
-    margin: 40px auto 60px;
+    margin: 45px auto 60px;
     padding: 0;
   }
   .slogan {
