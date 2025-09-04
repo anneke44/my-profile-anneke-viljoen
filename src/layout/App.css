@@ -4,6 +4,23 @@
   --tertiary-color: #9acbd0;
   --accent-color: #f2efe7;
   --bg-color: #ffff;
+  --card-header-bg: #9acbd0;
+  --card-bg-color: #ffff;
+  --about-image-bg: #f2f2f2;
+  --text-color: black;
+  --card-text-color: black;
+}
+.dark {
+  --primary-color: #476d7c;
+  --secondary-color: #77abb7;
+  --tertiary-color: #254b62;
+  --accent-color: #313131;
+  --bg-color: #151515;
+  --card-header-bg: #414141;
+  --card-bg-color: #414141;
+  --about-image-bg: #414141;
+  --text-color: #ffff;
+  --card-text-color: #ffff;
 }
 
 .App {
@@ -11,5 +28,7 @@
   width: 100dvw;
   overflow-x: hidden;
   font-family: "Roboto Variable", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   border: 1px solid rgba(0, 0, 0, 0.4);
 }

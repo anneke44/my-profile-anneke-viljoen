@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "@fontsource/zeyada";
 import "./NavBar.css";
 import logo from "../assets/logos/AnnekeTranLogo.png";
+import DarkModeToggle from "../hooks/DarkModeToggle";
 
 export default function NavBar() {
   return (
@@ -52,6 +53,11 @@ export default function NavBar() {
                   }
                 >
                   contact
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="page-link">
+                  <DarkModeToggle />
                 </NavLink>
               </li>
             </ul>

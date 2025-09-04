@@ -30,7 +30,7 @@
 }
 .about-me {
   font-size: 60px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   opacity: 0.8;
   letter-spacing: 1px;
 }

@@ -12,6 +12,13 @@
   border: 1px solid var(--secondary-color);
   background-color: var(--secondary-color);
 }
+.card-title {
+  color: var(--card-text-color);
+  margin: 15px auto;
+}
+.card-text {
+  color: var(--card-text-color);
+}
 
 @media (max-width: 768px) {
   .HomepageAbout {

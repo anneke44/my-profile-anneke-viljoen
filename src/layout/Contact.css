@@ -6,7 +6,7 @@
   align-content: center;
 }
 .Contact h1 {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 60px;
   opacity: 0.8;
   letter-spacing: 1px;
@@ -16,9 +16,11 @@
   margin-top: 30px;
 }
 .link-icon {
+  display: inline-flex;
   color: var(--primary-color);
   font-size: 20px;
   text-decoration: none;
+  transform: translateY(2.5px);
 }
 .link-icon:hover {
   color: var(--secondary-color);

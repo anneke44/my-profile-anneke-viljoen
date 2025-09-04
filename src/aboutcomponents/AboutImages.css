@@ -1,6 +1,6 @@
 .AboutImages {
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-  background-color: #f2f2f2;
+  background-color: var(--about-image-bg);
 }
 .about-image {
   margin: 60px auto;

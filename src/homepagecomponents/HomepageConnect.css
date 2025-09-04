@@ -13,10 +13,12 @@
   background-color: var(--secondary-color);
 }
 .link-icon {
+  display: inline-flex;
   color: var(--primary-color);
   font-size: 20px;
   text-decoration: none;
   margin: 4px;
+  transform: translateY(2.5px);
 }
 .link-icon:hover {
   color: var(--secondary-color);
