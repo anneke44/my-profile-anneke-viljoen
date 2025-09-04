@@ -6,7 +6,7 @@
   align-content: center;
 }
 .Contact h1 {
-  color: #006a71;
+  color: var(--primary-color);
   font-size: 60px;
   opacity: 0.8;
   letter-spacing: 1px;
@@ -16,10 +16,10 @@
   margin-top: 30px;
 }
 .link-icon {
-  color: #006a71;
+  color: var(--primary-color);
   font-size: 20px;
   text-decoration: none;
 }
 .link-icon:hover {
-  color: #48a6a7;
+  color: var(--secondary-color);
 }

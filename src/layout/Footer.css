@@ -7,16 +7,16 @@
   padding: 30px 0;
   text-align: center;
   opacity: 0.8;
-  background-color: #f2efe7;
+  background-color: var(--accent-color);
 }
 .link-icon {
-  color: #006a71;
+  color: var(--primary-color);
   font-size: 20px;
   text-decoration: none;
   margin: 4px;
 }
 .link-icon:hover {
-  color: #48a6a7;
+  color: var(--secondary-color);
 }
 
 @media (max-width: 768px) {

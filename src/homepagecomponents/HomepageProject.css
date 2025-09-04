@@ -4,16 +4,16 @@
 #launch-button {
   margin: 20px auto;
   padding: 8px 25px;
-  border: 1px solid #006a71;
-  background-color: #006a71;
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   color: #ffff;
   letter-spacing: 1px;
   transition: all 100ms ease-in-out;
 }
 #launch-button:hover {
-  border: 1px solid #48a6a7;
-  background-color: #48a6a7;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 @media (max-width: 768px) {

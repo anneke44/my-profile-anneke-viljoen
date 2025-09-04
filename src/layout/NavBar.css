@@ -29,11 +29,11 @@
   transition: all 100ms ease-in-out;
 }
 .page-link:hover {
-  color: #9acbd0;
+  color: var(--tertiary-color);
 }
 .active-link {
   text-decoration: none;
-  color: #48a6a7;
+  color: var(--secondary-color);
 }
 .dropDown > ul {
   margin: 0;
