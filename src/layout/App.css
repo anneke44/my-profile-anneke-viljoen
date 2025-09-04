@@ -25,7 +25,9 @@
 
 .App {
   margin: 0px;
+  padding: 0px;
   width: 100dvw;
+  height: 100dvh;
   overflow-x: hidden;
   font-family: "Roboto Variable", sans-serif;
   background-color: var(--bg-color);
